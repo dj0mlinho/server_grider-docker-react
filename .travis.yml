@@ -4,7 +4,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t mm88code/server_grider-docker-react -f Dockerfile.dev
+  - docker build -t mm88code/server_grider-docker-react -f Dockerfile.dev .
 
 script:
   - docker run -e CI=true mm88code/server_grider-docker-react npm run test
