@@ -13,7 +13,7 @@ deploy:
   provider: elasticbeanstalk
   region: 'us-east-2'
   app: 'server_grider-docker-react'
-  env: 'ServerGriderDockerReact-env'
+  env: 'ServerGriderDockerReact-env-1'
   bucket_name: 'elasticbeanstalk-us-east-2-123154316821'
   bucket_path: 'server_grider-docker-react'
   on:
